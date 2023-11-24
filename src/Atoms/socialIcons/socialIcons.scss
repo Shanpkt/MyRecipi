@@ -1,0 +1,14 @@
+.iconBox{
+  display: flex;
+    &__243{
+        font-family: 'Courier New', Courier, monospace
+    }
+    &__999{
+        display: flex;
+        gap: 10px;
+    }
+    &__990{
+        width: 25px;
+        height: 25px;
+    }
+}
