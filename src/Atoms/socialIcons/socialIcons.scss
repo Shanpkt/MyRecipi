@@ -1,7 +1,16 @@
 .iconBox{
   display: flex;
+  align-items: center;
+  gap: 10px;
+ 
     &__243{
-        font-family: 'Courier New', Courier, monospace
+        font-family: "Renner",sans-serif;
+        color: #a1a1a1;
+    display: inline-block;
+    font-size: .8125rem;
+    letter-spacing: 1px;
+    height: 1em;
+    line-height: 1;
     }
     &__999{
         display: flex;
@@ -10,5 +19,24 @@
     &__990{
         width: 25px;
         height: 25px;
+    }
+
+    &__search_cont{
+        display: flex;
+        gap: 10px;
+
+        h5{
+            font-family: "Renner",sans-serif;
+        color: #a1a1a1;
+    display: inline-block;
+    font-size: .8125rem;
+    letter-spacing: 1px;
+    height: 1em;
+    line-height: 1; 
+        }
+
+        img{
+            width: 20px;
+        }
     }
 }
