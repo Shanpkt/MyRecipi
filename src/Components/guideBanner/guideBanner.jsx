@@ -13,7 +13,24 @@ function GuideBanner() {
         <p>All the recipes and troubleshooting advice you need for a low-stress holiday.
                      </p>
      </div>
-     <div className='item3'></div>
+     <div className='item3'>
+   
+        <div className='item3__101'>
+            <img src='https://assets.epicurious.com/photos/5d49f1e2844ed80008f5b0c1/6:4/w_232,h_154,c_limit/RomanoBeans_RECIPE_073119_124.jpg'/>
+            <p>73 Thanksgiving Side Dishes to Complete Your Turkey Day</p>
+        </div>
+        
+        <div className='item3__101'>
+            <img src='https://assets.epicurious.com/photos/5d49f1e2844ed80008f5b0c1/6:4/w_232,h_154,c_limit/RomanoBeans_RECIPE_073119_124.jpg'/>
+            <p>73 Thanksgiving Side Dishes to Complete Your Turkey Day</p>
+        </div>
+        
+        <div className='item3__101'>
+            <img src='https://assets.epicurious.com/photos/5d49f1e2844ed80008f5b0c1/6:4/w_232,h_154,c_limit/RomanoBeans_RECIPE_073119_124.jpg'/>
+            <p>73 Thanksgiving Side Dishes to Complete Your Turkey Day</p>
+        </div>
+
+     </div>
     </div>
 
     </div>

@@ -20,6 +20,7 @@
 
       @media (max-width: 800px) {
         width: 99%;
+        height: 85vh;
         grid-template-areas:
         "item1 item1"
         "item2 item2"
@@ -78,7 +79,7 @@
     grid-area: item2;
    // background-color: #3498db;
     padding: 0 100px 0 0;
-
+    border-right: 1px solid gray;
     @media (max-width: 800px) {
          display: flex;
          flex-direction: column;
@@ -116,6 +117,41 @@
   
   .item3 {
     grid-area: item3;
-   background-color: #f93f23;
+    
+
+   &__101{
+     width: 100%;
+     height: fit-content;
+     border: 1px solid;
+     display: flex;
+     margin-bottom: 10px;
+     margin-left: 10px;
+     @media (max-width: 800px) {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     img{
+        width: 110px;
+        @media (max-width: 800px) {
+           display: none;
+        }
+     }
+
+     p{
+        font-size: 23px;
+        margin-left: 10px;
+        @media (max-width: 800px) {
+            margin: 0;
+            display: flex;
+           text-align: center;
+           font-weight: bolder;
+           font-size: 18px;
+           margin: 0 10px;
+         }
+     }
+   }
  
   }
