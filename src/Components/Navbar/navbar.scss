@@ -13,5 +13,14 @@
         font-weight: 400;
     }
 
+
+
+    &__333{
+        @media (max-width: 800px) {
+           display: none;
+        }
+    }
+
+
    
 }
