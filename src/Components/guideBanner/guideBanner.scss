@@ -19,6 +19,8 @@
 
 
       @media (max-width: 800px) {
+        grid-template-rows:  1fr;
+        border: 1px solid ;
         width: 99%;
         height: 85vh;
         grid-template-areas:
