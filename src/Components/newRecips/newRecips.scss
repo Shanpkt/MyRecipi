@@ -1,0 +1,38 @@
+.Newrecipie{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+
+    &__2535{
+        width: fit-content;
+        border: 1px solid black;
+        display: flex;
+        gap: 20px;
+
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    }
+
+
+    &__646{
+        
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         a{
+            font: normal 14px "Renner",sans-serif;
+    line-height: 1.125rem;
+    color: #333;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 10px;
+         }
+    }
+
+}

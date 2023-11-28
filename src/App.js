@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar/navbar";
 import GuideBanner from "./Components/guideBanner/guideBanner";
 import HolidayBanner from "./Components/holidayBanner/holidayBanner";
+import NewRecips from "./Components/newRecips/newRecips";
 import SearchBar from "./Components/searchBar/searchBar";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
      <SearchBar/>
      <HolidayBanner/>
      <GuideBanner/>
+     <NewRecips/>
     </div>
   );
 }
